@@ -1,14 +1,17 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-
 article,
 section{
 	page-break-after: always;
 }
 
-[epub|type~="z3998:poem"] p,
-[epub|type~="z3998:verse"] p{
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
+[epub|type~="z3998:poem"] p{
 	text-align: left;
 	text-indent: 0;
 }
@@ -17,25 +20,14 @@ section{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span,
-[epub|type~="z3998:verse"] p > span{
+[epub|type~="z3998:poem"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-[epub|type~="z3998:poem"] p > span + br,
-[epub|type~="z3998:verse"] p > span + br{
+[epub|type~="z3998:poem"] p > span + br{
 	display: none;
-}
-
-[epub|type~="z3998:poem"] p.right,
-[epub|type~="rearnotes"] blockquote > p.right{
-	display: inline-block;
-}
-
-span.right{
-	text-align: right;
 }
 
 p span.i1{
@@ -72,6 +64,7 @@ p span.i7{
 	text-indent: -1em;
 	padding-left: 8em;
 }
+
 p span.i8{
 	text-indent: -1em;
 	padding-left: 9em;
@@ -90,10 +83,4 @@ p span.i10{
 p span.i11{
 	text-indent: -1em;
 	padding-left: 12em;
-}
-
-[epub|type~="z3998:poem"] span > span{
-	display: inline;
-	margin: 0;
-	padding: 0;
 }
