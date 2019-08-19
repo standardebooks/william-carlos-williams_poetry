@@ -107,9 +107,9 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="the-tempers.xhtml"/>
 		<itemref idref="al-que-quiere.xhtml"/>
 		<itemref idref="sour-grapes.xhtml"/>
-		<itemref idref="the-tempers.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
