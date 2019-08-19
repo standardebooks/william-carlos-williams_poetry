@@ -6,9 +6,9 @@ section{
 	page-break-after: always;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
+[epub|type~="z3998:dedication"] {
+	text-align: center;
+	font-variant: small-caps;
 }
 
 [epub|type~="z3998:poem"] p{
@@ -28,6 +28,12 @@ span[epub|type~="subtitle"]{
 
 [epub|type~="z3998:poem"] p > span + br{
 	display: none;
+}
+
+span[epub|type~="z3998:subtitle"]{
+	display: block;
+	font-style: italic;
+	font-weight: normal;
 }
 
 p span.i1{
