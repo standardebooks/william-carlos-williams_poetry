@@ -6,7 +6,7 @@ section{
 	page-break-after: always;
 }
 
-[epub|type~="z3998:dedication"] {
+[epub|type~="z3998:poem"] [epub|type~="z3998:dedication"]{
 	text-align: center;
 	font-variant: small-caps;
 }
