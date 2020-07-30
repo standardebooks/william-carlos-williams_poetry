@@ -3,7 +3,7 @@
 
 article,
 section{
-	page-break-after: always;
+	break-after: page;
 }
 
 [epub|type~="z3998:poem"] [epub|type~="dedication"]{
