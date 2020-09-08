@@ -30,12 +30,6 @@ section{
 	display: none;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-style: italic;
-	font-weight: normal;
-}
-
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
