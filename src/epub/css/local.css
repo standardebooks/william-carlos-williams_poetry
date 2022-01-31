@@ -7,8 +7,8 @@ section{
 }
 
 [epub|type~="z3998:poem"] [epub|type~="dedication"]{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
 
 [epub|type~="z3998:poem"] p{
@@ -71,16 +71,16 @@ p span.i8{
 }
 
 p span.i9{
-	text-indent: -1em;
 	padding-left: 10em;
+	text-indent: -1em;
 }
 
 p span.i10{
-	text-indent: -1em;
 	padding-left: 11em;
+	text-indent: -1em;
 }
 
 p span.i11{
-	text-indent: -1em;
 	padding-left: 12em;
+	text-indent: -1em;
 }
