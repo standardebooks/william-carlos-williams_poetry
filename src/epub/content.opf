@@ -35,6 +35,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85004387</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">An anthology of William Carlos Williams’ poetry collections, combining The Tempers (1913), Al Que Quiere! (1917), and Sour Grapes (1921).</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;Poems&lt;/i&gt; is an anthology of &lt;a href="https://standardebooks.org/ebooks/william-carlos-williams"&gt;William Carlos Williams’&lt;/a&gt; poetry collections, combining &lt;i&gt;The Tempers&lt;/i&gt; (1913), &lt;i&gt;Al Que Quiere!&lt;/i&gt; (1917), and &lt;i&gt;Sour Grapes&lt;/i&gt; (1921). Williams is recognized as one of the foremost poets of American Modernism. In these collections a reader may perceive Williams’ contact with and subsequent growth through and away from Imagism. The poet’s work asserts a decidedly American approach to Modernism and features highly localized diction and imagery.&lt;/p&gt;
